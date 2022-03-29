@@ -36,6 +36,7 @@ private:
     void placeNewFood(Snake::FoodResp &requestedFood);
     void placeNewFood(Snake::FoodInd &requestedFood);
     void clearOldFood();
+    void RequestedFoodCollidedWithSnake(Snake::FoodResp &requestedFood);
 
 
     struct Segment

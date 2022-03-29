@@ -31,6 +31,7 @@ namespace Snake
         istr >> w >> width >> height >> f >> foodX >> foodY >> s;
 
         if (w == 'W' and f == 'F' and s == 'S')
+
         {
             m_mapDimension = std::make_pair(width, height);
             m_foodPosition = std::make_pair(foodX, foodY);
